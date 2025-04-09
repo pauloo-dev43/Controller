@@ -33,5 +33,5 @@ Route::put('/pedidos/{id}', [OrderController::class, 'update'])->name('pedidos.u
 Route::delete('/pedidos/{id}', [OrderController::class, 'destroy'])->name('pedidos.destroy');
 
 Route::get('/', function () {
-    return 'Bem-vindo ao Comércio de Vassouras Quintal';
+    return 'Bem-vindo a Paulão Variedades';
 });
